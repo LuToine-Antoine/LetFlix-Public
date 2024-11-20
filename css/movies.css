@@ -1,0 +1,117 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/*Affichage Portables*/
+@media screen and (max-width: 1000px) {
+
+    .add_to_cart{
+        background-color: #ffce00;
+        border-radius: 2vh;
+        padding: 1vh;
+        font-size: 3vh;
+    }
+
+    .movie_group input{
+        font-size: 3vh;
+    }
+
+}
+
+/* Affichage PC*/
+@media screen and (min-width: 1000px){
+
+    .add_to_cart{
+        background-color: #ffce00;
+        border-radius: 10px;
+        padding: 6px;
+    }
+
+    .movie_group input{
+        font-size: 2vh;
+    }
+
+}
+
+.movies_placement{
+    margin: 2vh 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5vh
+}
+
+.movies_index{
+    padding: 2vh;
+    width: 30vh;
+    height: 65vh;
+    font-size: 10px;
+    text-align: center;
+}
+
+.movies_index img{
+    border-radius: 10px;
+    height: 40vh;
+    margin: 1vh;
+}
+
+.movies_index h3{
+    font-size: 2.5vh;
+}
+
+.movies_infos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.movie_group {
+    display: flex;
+    border-radius: 5px;
+    flex-direction: column;
+    background-color: black;
+    margin-bottom: 3vh;
+}
+
+.movie_group input{
+    border: none;
+    background-color: rgb(156, 21, 21);
+    color: white;
+    padding: 10px;
+}
+
+.add_to_cart{
+    background-color: #ffce00;
+    border: none;
+}
+
+.add_to_cart:hover{
+    background-color: #f1c300;
+}
+
+.price_display{
+    font-size: 3vh;
+}
+
+/*Bas de page*/
+
+.change_page{
+    padding-top: 4vh;
+}
+
+.change_page form, .change_page p {
+    display: flex;
+    justify-content: center;
+}
+
+.change_page button{
+    padding: 1vh;
+    margin: 1vh;
+    border-radius: 5px;
+    border: none;
+    background-color: #bb0811;
+    color: white;
+}

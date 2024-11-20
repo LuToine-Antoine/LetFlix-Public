@@ -1,0 +1,89 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#cart_title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 2vh;
+    font-size: 3vh;
+}
+
+#cart_title{
+    display: flex;
+    flex-direction: column;
+}
+
+.cart_placement {
+    margin: 2vh 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5vh
+}
+
+.cart_index {
+    width: 50vh;
+    padding: 2vh;
+    font-size: 10px;
+    text-align: center;
+}
+
+.cart_group {
+    display: flex;
+    border-radius: 5px;
+    flex-direction: column;
+    background-color: black;
+}
+
+.cart_group input {
+    border: none;
+    background-color: rgb(156, 21, 21);
+    color: white;
+    padding: 10px;
+}
+
+#pay_delete input {
+    border: none;
+    background-color: rgb(156, 21, 21);
+    color: white;
+    padding: 10px;
+    font-size: 2vh;
+}
+
+.cart_id_film_img {
+    width: 20vh;
+    margin: 1vh;
+}
+
+.cart_infos {
+    padding: 2vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    font-size: 2vh;
+}
+
+.form_id_film{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 2vh;
+}
+
+.form_id_film input{
+    font-size: 2vh;
+}
+
+#delete input{
+    color: rgb(156, 21, 21);
+    background-color: white;
+    font-size: 2vh;
+}

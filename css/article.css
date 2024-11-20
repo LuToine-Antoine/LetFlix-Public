@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+@media screen and (max-width: 1000px) {
+    h1{
+        padding-top: 4vh;
+        font-size: 6vh;
+        display: flex;
+        justify-content: center;
+        font-family: Sora, sans-serif;
+        font-weight: 500;
+    }
+
+    aside{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5vh;
+        padding: 2vh 0;
+    }
+
+    .movie_poster{
+        width: 20vh;
+        border-radius: 4px;
+    }
+
+    .article_text_group{
+        font-size: 2vh;
+        display: flex;
+        flex-direction: column;
+        gap: 1vh;
+        border: black solid 1px;
+        border-radius: 10px;
+        padding: 5vh;
+        margin: 10vh;
+    }
+
+    .button_director_search{
+        padding: 1vh;
+    }
+
+    .add_to_cart{
+        background-color: #ffce00;
+        border-radius: 10px;
+        padding: 6px;
+    }
+
+    .add_to_cart:hover{
+        background-color: #f1c300;
+    }
+
+    .movie_informations{
+        display: flex;
+        flex-direction: row;
+        gap: 10vh;
+    }
+
+    .director{
+        display: flex;
+        flex-direction: column;
+        gap: 5vh;
+    }
+
+    .director img{
+        width: 10vh;
+        border-radius: 10px;
+    }
+
+    .director_group{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2vh;
+    }
+
+    .revenue{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        gap: 2vh;
+    }
+
+    #price{
+        margin-bottom: -5vh;
+        font-size: 3vh;
+    }
+
+    #cast_title{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5vh;
+        font-size: 5vh;
+    }
+
+    .cast{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5vh;
+    }
+
+    .cast_group{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2vh;
+    }
+
+    .cast_group img{
+        width: 20vh;
+        border-radius: 10px;
+    }
+
+
+}
+
+/* Affichage PC*/
+@media screen and (min-width: 1000px){
+    h1{
+        padding-top: 4vh;
+        font-size: 6vh;
+        display: flex;
+        justify-content: center;
+        font-family: Sora, sans-serif;
+        font-weight: 500;
+    }
+
+    aside{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 5vh;
+        padding: 2vh 0;
+    }
+
+    .movie_poster{
+        width: 40vh;
+        border-radius: 4px;
+        margin-left: 20vh;
+    }
+
+    .article_text_group{
+        display: flex;
+        flex-direction: column;
+        gap: 5vh;
+        border: black solid 1px;
+        border-radius: 10px;
+        padding: 5vh;
+        margin: 10vh;
+    }
+
+    .button_director_search{
+        padding: 1vh;
+    }
+
+    .add_to_cart{
+        background-color: #ffce00;
+        border-radius: 10px;
+        padding: 6px;
+    }
+
+    .add_to_cart:hover{
+        background-color: #f1c300;
+    }
+
+    .movie_informations{
+        display: flex;
+        flex-direction: row;
+        gap: 20vh;
+    }
+
+    .director{
+        display: flex;
+        flex-direction: column;
+        gap: 5vh;
+    }
+
+    .director img{
+        width: 20vh;
+        border-radius: 10px;
+    }
+
+    .director_group{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2vh;
+    }
+
+    .revenue{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        gap: 2vh;
+    }
+
+    #price{
+        margin-bottom: -5vh;
+        font-size: 3vh;
+    }
+
+    #cast_title{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5vh;
+        font-size: 5vh;
+    }
+
+    .cast{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5vh;
+    }
+
+    .cast_group{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2vh;
+    }
+
+    .cast_group img{
+        width: 20vh;
+        border-radius: 10px;
+    }
+
+
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+

@@ -1,0 +1,57 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/*Affichage Portables*/
+@media screen and (max-width: 1000px) {
+
+    #website_text h1 {
+        font-size: 3vh;
+    }
+
+    #website_text h2 {
+        text-decoration: underline;
+        font-size: 3vh;
+    }
+
+    #website_text p {
+        font-size: 2vh;
+    }
+}
+
+/* Affichage PC*/
+@media screen and (min-width: 1000px){
+
+    #website_text h1 {
+        font-size: 2.5em;
+    }
+
+    #website_text h2 {
+        text-decoration: underline;
+        font-size: 1.75em;
+    }
+
+    #website_text p {
+        font-size: 1em;
+    }
+}
+
+#website_text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 4vh;
+    margin: 0 5vh;
+}
+
+#title_align{
+    display: flex;
+    gap:1vh;
+}
+
+#text_title{
+    color: #bb0811;
+}

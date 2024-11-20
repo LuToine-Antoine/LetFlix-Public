@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family:  "Space Grotesk", sans-serif;
+}
+
+/*Affichage Portables*/
+@media screen and (max-width: 1000px) {
+    #header_picture{
+        max-height: 10vh;
+    }
+
+    .avatar{
+        width: 15vh;
+        border-radius: 50%;
+    }
+
+    #header_login{
+        font-size: 5vh;
+    }
+
+    #header_login, #header_logged, #goHome a{
+        padding: 2vh;
+        gap: 5vh;
+    }
+
+    .search_bar form {
+        gap: 1vh;
+        margin: 5vh;
+    }
+
+    .search_bar input{
+        padding: 2vh;
+        border-radius: 10px;
+        border: none;
+    }
+
+    #search{
+        font-size: 1.5vh;
+    }
+
+    #search_button{
+        background-color: rgba(139, 0, 0, 0.6);
+        color: white;
+        font-size: 2vh;
+    }
+
+    #cart img{
+        max-height: 10vh;
+        border-radius: 50%;
+        padding: 5px;
+        background-color: white;
+    }
+
+    #header_logged .submit_login, #header_profil{
+        display: flex;
+        gap: 1vh;
+        width: 30vh;
+        font-size: 2vh;
+    }
+
+    .movies_genres{
+        padding-bottom: 4px;
+        gap: 1vh;
+    }
+
+    .button_genre{
+        padding: 5px;
+        font-size: 2vh;
+    }
+
+    .redirecta{
+        font-size: 2.5vh;
+    }
+
+    #goHome{
+        font-size: 3vh;
+    }
+
+}
+
+/* Affichage PC*/
+@media screen and (min-width: 1000px){
+
+    #header_picture{
+        padding: 5vh;
+        max-height: 10vh;
+    }
+
+    .avatar{
+        width: 10vh;
+        border-radius: 50%;
+    }
+
+    #header_login, #header_logged, #goHome a{
+        padding: 2vh;
+        gap: 5vh;
+    }
+
+    .search_bar form {
+        gap: 1vh;
+        margin: 5vh;
+    }
+
+    .search_bar input{
+        padding: 2vh;
+        border-radius: 10px;
+        border: none;
+    }
+
+    #search{
+        width: 50vh;
+    }
+
+    #search_button{
+        background-color: rgba(139, 0, 0, 0.6);
+        color: white;
+    }
+
+    #cart img{
+        max-height: 6vh;
+        border-radius: 50%;
+        padding: 5px;
+        background-color: white;
+    }
+
+    #header_logged .submit_login, #header_profil{
+        display: flex;
+        gap: 1vh;
+        width: 30vh;
+    }
+
+    .movies_genres{
+        padding-bottom: 4px;
+        gap: 1vh;
+    }
+
+    .button_genre{
+        padding: 5px;
+    }
+
+    .redirecta{
+        font-size: 2.5vh;
+    }
+
+}
+
+#header_picture{
+    background-color: #242321;
+    display: flex;
+    justify-content: center;
+}
+
+#header_login, #header_logged, #goHome a{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#header_pic_login{
+    background-color: #363430;
+    display: flex;
+    flex-direction: column;
+}
+
+#header_login input, #header_logged input{
+    padding: 1vh;
+    margin: 1vh;
+    border-radius: 5px;
+    border: none;
+    font-size: 2vh;
+}
+
+#header_login .submit_login, #header_logged .submit_login{
+    background-color: rgba(232, 13, 13, 0.6);
+    color: white;
+}
+
+#login_successfully{
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.redirecta{
+    padding: 0.5vh;
+    color: white;
+    text-decoration: none;
+}
+
+.redirecta:hover{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+
+.movies_genres{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #363430;
+}
+
+.button_genre{
+    border: none;
+    border-radius: 2px;
+    font-family: Verdana, serif;
+    background-color: white;
+}
+
+body{
+    background-color: #efeae8;
+}
+
+.search_bar{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.search_bar form {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+#search_button{
+    background-color: rgba(139, 0, 0, 0.6);
+    color: white;
+}

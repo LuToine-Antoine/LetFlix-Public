@@ -1,0 +1,19 @@
+.footer{
+    background-color: #242321;
+    color: white;
+    text-align: center;
+    margin-top: 10vh;
+    padding: 10vh;
+}
+
+.footer a{
+    color: yellow;
+}
+
+.footer h1{
+    font-size: 4vh;
+}
+
+.footer p{
+    font-size: 2vh;
+}
